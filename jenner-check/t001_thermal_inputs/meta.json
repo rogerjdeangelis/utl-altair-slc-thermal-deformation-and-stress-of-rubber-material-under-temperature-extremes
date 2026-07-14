@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_thermal_inputs",
+  "source_file": "utl-altair-slc-thermal-deformation-and-stress-of-rubber-material-under-temperature-extremes.sas",
+  "source_blob_sha": "074e5d85447b50904ae38286d160956338048e5d",
+  "source_commit": "7d844fff5ac0861d007dc2e3006a70bb81e57270",
+  "notes": "Ingests the thermal-analysis input parameters (numeric) and boundary conditions (text) via CARDS and prints both. Adapted from the program's DATA-step core: libname workx (Windows path d:/wpswrkx) redirected to WORK; the author's INFILE CARDS4/;;;; reader written as equivalent single-terminator INFILE CARDS; unit strings ASCII-normalized (degC, m2). Author's informats, FORMAT VALUE 9.6, list-input & modifier, and PROC PRINT titles preserved. The PROC PYTHON post-processing block (Windows-only paths, pyreadstat/parquet) is out of scope."
+}
