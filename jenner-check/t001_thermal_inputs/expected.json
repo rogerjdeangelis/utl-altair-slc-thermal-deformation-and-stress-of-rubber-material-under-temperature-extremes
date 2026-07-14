@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-14T05:36:14Z",
+  "_captured_run_id": "r_fa89ce3e8dee415e80281b288c423648",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 7 rows from DATALINES.",
+    "NOTE: Wrote work.input_data_numeric (7 rows, 4 columns).",
+    "NOTE: PROC PRINT completed: 7 observations printed, 4 variables",
+    "NOTE: Wrote work.input_data_text (1 rows, 2 columns)."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

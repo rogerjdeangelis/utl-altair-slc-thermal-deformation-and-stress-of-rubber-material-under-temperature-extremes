@@ -1,0 +1,15 @@
+                                                                                                                        Numeric Inputs
+
+  Obs                               Parameter       Value  Unit  Symbol
+    1  Initial Temperature                     100.000000  C     T1
+    2  Final Temperature                        50.000000  C     T2
+    3  Temperature Change                      -50.000000  C     dT
+    4  Young's Modulus                           1.000000  MPa   E
+    5  CTE (Coefficient of Thermal Expansion)    0.000200  1/C   a
+    6  Reference Length                          1.000000  m     L0
+    7  Cross-sectional Area                      1.000000  m2    A
+
+                                                                                                                      Boundary Conditions
+
+  Obs           Parameter       Value
+    1  Boundary Condition  Fixed Ends
